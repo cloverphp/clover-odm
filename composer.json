@@ -1,0 +1,32 @@
+{
+    "name": "cloverphp/odm",
+    "description": "clover odm",
+    "type": "library",
+    "require": {
+        "php": "^8.4",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-hash": "*",
+        "ext-openssl": "*",
+        "ext-sodium": "*",
+        "ext-tokenizer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.3",
+        "psr/cache": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clover\\Odm\\": "src/odm/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
